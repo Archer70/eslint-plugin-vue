@@ -37,6 +37,6 @@ module.exports = {
 }
 
 // Update files.
-const filePath = path.resolve(__dirname, '../lib/configs/prettier.js')
+const filePath = path.resolve(__dirname, '../lib/configs/no-layout-rules.js')
 const content = generateConfig(rulesToDisable)
 fs.writeFileSync(filePath, content)
